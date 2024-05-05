@@ -1,0 +1,181 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato:wght@300;400&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+
+*{
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+body {
+
+    font-family: "Lato", sans-serif;
+    background-color: rgb(122, 189, 147);
+
+
+}
+
+
+
+header {
+margin: 154px 0; 
+padding-top: 74px;
+
+border-top: 1px solid rgb(166, 206, 87) ;
+
+}
+
+
+main,footer,header {width: 100%;
+   
+    
+}
+
+footer {
+
+background-color: rgb(166, 206, 87);
+height: 200px;
+
+}
+
+section {
+
+    width: 83.33%;
+    margin:0 auto;
+    margin-bottom: 2em;
+}
+
+#secondSection{
+
+    width: 100%;
+    background-color: #E1E3E9;
+  
+}
+
+#secondSection p {
+
+    font-size: 2.25em;
+    font-weight: 400;
+   
+}
+
+#sectionSection img {
+
+width: 40%;
+margin-right: 100px;
+
+
+
+
+}
+
+div { width: 83.33%;
+      margin: 0 auto;
+}
+div div {
+
+    width: 100%;
+    margin:0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+h1, h2{
+color: rgb(166, 206, 87);
+text-transform:uppercase;
+/*we can transform lowercase into
+uppercase case*/
+text-align:center;
+font-size: 9.37em;
+font-family: "Alfa Slab One", serif;
+line-height: 140px;
+
+
+
+}
+
+h2 {
+
+text-align:left;
+font-size: 8.75em;
+
+
+}
+
+p,a {
+
+    font-size: 1.81em;
+    font-weight: 300;
+    
+}
+
+
+a {   
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
+    color: rgb(122, 189, 147);
+    border:1px solid;
+    padding: 0.5em 1em;
+ 
+    
+
+}
+
+
+a:hover {
+
+border-style: dashed;
+background-color:#aded3f;
+color: rgb(122, 189, 147);
+
+}
+
+
+
+
+
+h2,p {
+
+    margin-bottom:64px;
+
+}
+
+
+
+
+
+
+
+header img {
+
+    width:83.33%;
+    margin:auto;
+    display: block;
+   
+}
+
+
+
+
+@media(max-width: 768px){
+
+
+body {
+
+font-size: 10px;
+
+}
+
+
+
+
+}
